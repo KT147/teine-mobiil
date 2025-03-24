@@ -1,0 +1,7 @@
+{
+  "name": "teine",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
