@@ -36,6 +36,7 @@ import './theme/variables.css';
 import Calendar from './pages/Calendar';
 import Camera from './pages/Camera';
 import Calculator from './pages/Calculator';
+import AddAnimals from './pages/AddAnimals';
 
 setupIonicReact();
 
@@ -60,6 +61,9 @@ const App: React.FC = () => {
             </Route>
             <Route path="/calculator" exact={true}>
               <Calculator/>
+            </Route>
+            <Route path="/add-animals" exact={true}>
+              <AddAnimals/>
             </Route>
           </IonRouterOutlet>
         </IonSplitPane>

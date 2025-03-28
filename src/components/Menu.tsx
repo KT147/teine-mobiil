@@ -11,7 +11,7 @@ import {
 } from '@ionic/react';
 
 import { useLocation } from 'react-router-dom';
-import { bookmarkOutline, calendarClearOutline, calendarSharp, cameraOutline, cameraSharp, calculatorOutline, calculatorSharp} from 'ionicons/icons';
+import { bookmarkOutline, calendarClearOutline, calendarSharp, cameraOutline, cameraSharp, calculatorOutline, calculatorSharp, peopleOutline} from 'ionicons/icons';
 import './Menu.css';
 
 interface AppPage {
@@ -40,6 +40,12 @@ const appPages: AppPage[] = [
     iosIcon: calculatorOutline,
     mdIcon: calculatorSharp
   },
+  {
+    title: 'Add Animals',
+    url: '/add-animals',
+    iosIcon: peopleOutline,
+    mdIcon: calculatorSharp
+  }
 ];
 
 const labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];

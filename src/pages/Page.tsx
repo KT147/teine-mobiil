@@ -7,6 +7,7 @@ const Page: React.FC = () => {
 
   const { name } = useParams<{ name: string; }>();
 
+
   return (
     <IonPage>
       <IonHeader>
@@ -26,6 +27,7 @@ const Page: React.FC = () => {
         </IonHeader>
         <ExploreContainer name={name} />
       </IonContent>
+      sss
     </IonPage>
   );
 };
